@@ -10,26 +10,26 @@ A simple full-stack app to manage a todo list and summarize tasks using OpenRout
 - Simple React frontend and Express backend
 
 
-## Setup Instructions
+# Setup Instructions
 
-### 1. Clone the repo
+## 1. Clone the repo
 
-### 2. Install dependencies
-# Backend
+## 2. Install dependencies
+### Backend
 - cd Backend
 - npm install
 
-# Frontend
+### Frontend
 - cd Frontend
 - cd to-do
 - npm install
 
-### 3. Run the app
-# Backend
+## 3. Run the app
+### Backend
 - cd Backend
 - npm start
 
-# Frontend
+### Frontend
 - cd Frontend
 - cd to-do
 - npm start
