@@ -16,23 +16,23 @@ A simple full-stack app to manage a todo list and summarize tasks using OpenRout
 
 ### 2. Install dependencies
 # Backend
-cd Backend
-npm install
+-cd Backend
+-npm install
 
 # Frontend
-cd Frontend
-cd to-do
-npm install
+-cd Frontend
+-cd to-do
+-npm install
 
 ### 3. Run the app
 # Backend
-cd Backend
-npm start
+-cd Backend
+-npm start
 
 # Frontend
-cd Frontend
-cd to-do
-npm start
+-cd Frontend
+-cd to-do
+-npm start
 
 
 # Architecture & Design Decisions
