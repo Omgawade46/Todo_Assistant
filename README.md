@@ -1,8 +1,8 @@
-# 📝 Todo Summary Assistant
+#  Todo Summary Assistant
 
 A simple full-stack app to manage a todo list and summarize tasks using OpenRouter AI, then send the summary to Slack.
 
-## 📦 Features
+## Features
 
 - Add, delete, and update todos
 - Generate summaries with OpenRouter 
@@ -10,7 +10,7 @@ A simple full-stack app to manage a todo list and summarize tasks using OpenRout
 - Simple React frontend and Express backend
 
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repo
 
