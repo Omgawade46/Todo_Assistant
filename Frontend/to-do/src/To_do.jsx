@@ -1,4 +1,4 @@
-// File: App.jsx
+
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import TextField from '@mui/material/TextField';
@@ -12,7 +12,7 @@ import EditIcon from '@mui/icons-material/Edit';
 
 const API_URL = 'http://localhost:5000';
 
-function App() {
+function To_do() {
   const [todos, setTodos] = useState([]);
   const [task, setTask] = useState('');
   const [message, setMessage] = useState('');
@@ -47,10 +47,10 @@ function App() {
     }
   };
   const [editingId, setEditingId] = useState(null);
-const [editTask, setEditTask] = useState('');
+  const [editTask, setEditTask] = useState('');
 
 
-const updateTodo = async (id) => {
+  const updateTodo = async (id) => {
   const API_URL = 'http://localhost:5000';
 
   await axios.put(`${API_URL}/todos/${id}`, { task: editTask });
@@ -118,8 +118,8 @@ const updateTodo = async (id) => {
             className="text-blue-600"
           >
             <IconButton aria-label="edit" >
-  <EditIcon  />
-</IconButton>
+             <EditIcon  />
+             </IconButton>
 
           </button>
           <button
@@ -128,8 +128,8 @@ const updateTodo = async (id) => {
           >
             
           <IconButton aria-label="delete" size="large">
-  <DeleteIcon />
-</IconButton>
+          <DeleteIcon />
+         </IconButton>
      
        
           </button>
@@ -150,4 +150,4 @@ const updateTodo = async (id) => {
   );
 }
 
-export default App;
+export default To_do;
