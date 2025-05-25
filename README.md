@@ -53,3 +53,7 @@ Stateless API design for scalability
 
 Minimal styling using Tailwind-ready classnames
 
+
+
+## Note: The OPENROUTER_API_KEY and SLACK_WEBHOOK_URL changes daily — make sure to update it each day before running the backend.
+
